@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
-<meta name="version" content="1822"/>
+<meta name="version" content="1864"/>
 <style>body {font-family:Helvetica}ul.comment{list-style-image:url('https://hackpad.com/static/img/comment.png');} ul.task{list-style-image:url('https://hackpad.com/static/img/unchecked.png');}ul.taskdone{list-style-image:url('https://hackpad.com/static/img/checked.png');} </style><title>/2694$GKI6ZGjacBa</title>
 </head>
 <body><h1>eCourt (侏羅紀公園特區)</h1><p></p><p><b>Up to Date:</b></p><ul><li>蠻野心足過往三年判例地圖呈現（尚未完成）<ul><li><a href="https://docs.google.com/file/d/0B0uViUIFNCCMNUlUZ3dUZlBHZ1E/edit">https://docs.google.com/file/d/0B0uViUIFNCCMNUlUZ3dUZlBHZ1E/edit</a></li></ul>
@@ -41,7 +41,11 @@
 </ul>
 
 <ul><li><b>Ronny提供的案號db</b><ul><li><a href="https://dl.dropboxusercontent.com/u/8336403/db.sqlite.gz">https://dl.dropboxusercontent.com/u/8336403/db.sqlite.gz</a></li>
-<li>用sqlite打下面指令可以拿到特定案號的資料<ul><li>select * from district_court_case_eav where case_id=&quot;88,易,2246&quot;</li></ul>
+<li>用sqlite打下面指令可以拿到特定案號的資料(友善列印那頁的html)<ul><li>select * from district_court_case_eav where case_id=&quot;88,易,2246&quot;</li></ul>
+</li>
+<li>將友善列印那頁的html轉成text的工具<ul><li><a href="https://github.com/aaronsw/html2text.git">https://github.com/aaronsw/html2text.git</a></li></ul>
+</li>
+<li>寫到一半的parser，好像用不到了，囧<ul><li><a href="https://github.com/jinkuen/twlawsuit/blob/master/tools/lawsuit2json.py">https://github.com/jinkuen/twlawsuit/blob/master/tools/lawsuit2json.py</a></li></ul>
 </ul>
 </ul>
 
