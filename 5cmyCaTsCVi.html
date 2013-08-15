@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
-<meta name="version" content="1125"/>
+<meta name="version" content="1177"/>
 <style>body {font-family:Helvetica}ul.comment{list-style-image:url('https://hackpad.com/static/img/comment.png');} ul.task{list-style-image:url('https://hackpad.com/static/img/unchecked.png');}ul.taskdone{list-style-image:url('https://hackpad.com/static/img/checked.png');} </style><title>/2694$5cmyCaTsCVi</title>
 </head>
 <body><h1>開發流程</h1><p></p><p>這份文件內容說明我們每次 開發/修改 網頁 介面/功能 時須共同遵守的流程以及規範，以及一些開發輔助工具的使用方法</p><ul class="comment"><li>對了我發現一件事情, create site 只有免費一個月, 一個月後就要付錢了, 費用是每個月 $2*member數, 免費的是要在 hackpad 這個 site 底下 create 新的 pad, 一樣可以再加進某個 collection, 不知道寫在哪所以先放這邊</li>
@@ -27,7 +27,7 @@
 <li>開發前請先用指令 <b>git pull</b> 將自己的 working copy 更新到最新的版本</li>
 <li>請使用 <b>branch</b> : 除非是馬上緊急要修掉的 bug ，其他情況下都建議開一條新的 branch&nbsp;</li></ul>
 
-<h2>測試</h2><p></p><h2>部署</h2><p><b>Heroku</b></p><p>我昨天參考<a href='https://devcenter.heroku.com/articles/nodejs#using-a-postgresql-database'/>這篇</a>跑了一遍，可以順利的把node.js的server跑起來</p><p>Heroku 支援 postgreSQL, mongodb 跟 redis</p><p></p><p>node.js 的 tutorial <a href='http://www.nodebeginner.org/'/>這篇</a>還不錯，中文版是有全文的，可以參考一下</p><ul class="comment"><li>看有什麼問題吧 :o</li></ul>
+<h2>測試</h2><p></p><h2>部署</h2><p><b>Heroku</b></p><p>我昨天參考<a href='https://devcenter.heroku.com/articles/nodejs#using-a-postgresql-database'/>這篇</a>跑了一遍，可以順利的把node.js的server跑起來</p><p>Heroku 支援 postgreSQL, mongodb 跟 redis</p><p>這篇文章提到的流程是用 express + npm ，但我們現在是用 bootstrap 當 web framwork，要怎麼結合起來可能要再研究一下?</p><p></p><p>node.js 的 tutorial <a href='http://www.nodebeginner.org/'/>這篇</a>還不錯，中文版是有全文的，可以參考一下</p><ul class="comment"><li>看有什麼問題吧 :o</li></ul>
 
 <p></p><p></p></body>
 </html>
